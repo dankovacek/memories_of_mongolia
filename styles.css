@@ -152,6 +152,21 @@ main {
   margin-bottom: 0.25rem;
 }
 
+.site-license {
+  max-width: 960px;
+  margin: 0 auto 3rem;
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 1px solid rgba(17, 17, 17, 0.2);
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 -0.5rem 2rem var(--edge);
+}
+
+.site-license a {
+  color: inherit;
+  text-decoration: underline;
+}
+
 @media (max-width: 720px) {
   main {
     padding: 3rem 1.25rem 4rem;

@@ -5,6 +5,7 @@ Use this guide whenever you need to tweak the public site (hosted by GitHub Page
 ---
 
 ## Publishing on GitHub Pages (one-time setup)
+
 1. Push the repository to GitHub if you have not already.
 2. On GitHub, open the repository → **Settings** tab → **Pages** section (left sidebar).
 3. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
@@ -70,3 +71,14 @@ For someone comfortable with tools like Overleaf but not coding, the easiest app
 > Tip: If you prefer a local copy, download the repository as a ZIP from GitHub ("Code" → "Download ZIP"), unzip it, open `index.html` in Notepad, make changes, and upload the modified file back through GitHub using **Add file → Upload files**. This still avoids any command-line work.
 
 Keep this README handy for future updates so you can quickly refresh the site without needing a developer on hand.
+
+---
+
+## License
+
+This memoir is personal work that you probably want people to read and share, but not remix or sell. To balance access with control, the project is published under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)** license.
+
+- Readers may download and pass along the PDF/EPUB as long as they credit the author.
+- Commercial use and derivative works (e.g., edits, translations, audiobooks) require explicit permission.
+
+See [LICENSE](LICENSE) for the formal notice and a link to the full legal code on creativecommons.org.
