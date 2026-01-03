@@ -4,6 +4,18 @@ Use this guide whenever you need to tweak the public site (hosted by GitHub Page
 
 ---
 
+## Publishing on GitHub Pages (one-time setup)
+1. Push the repository to GitHub if you have not already.
+2. On GitHub, open the repository → **Settings** tab → **Pages** section (left sidebar).
+3. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
+4. Choose branch `main` and folder `/(root)` (that is where `index.html` lives).
+5. Click **Save**. GitHub will build the site and show the public URL at the top of the Pages section. Bookmark it.
+6. After this initial setup, every new commit to `main` automatically republishes the site within a couple of minutes.
+
+> If you ever move files or rename the branch, revisit the Pages settings to ensure `main` + `/(root)` are still selected.
+
+---
+
 ## 1. Local Workflow (beginner-friendly)
 These steps assume you have Git installed and are comfortable opening a terminal.
 
